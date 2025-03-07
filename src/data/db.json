@@ -1,0 +1,47 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "password": "password123",
+        "createdAt": "2023-10-01T12:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "password": "password123",
+        "createdAt": "2023-10-02T14:30:00.000Z"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "Getting Started with Next.js",
+        "content": "Next.js is a React framework that enables functionality such as server-side rendering and static site generation. This is why many developers choose Next.js over a plain React application.",
+        "authorId": 1,
+        "authorName": "John Doe",
+        "createdAt": "2023-10-05T09:15:00.000Z",
+        "updatedAt": null
+      },
+      {
+        "id": 2,
+        "title": "The Power of TailwindCSS",
+        "content": "TailwindCSS is a utility-first CSS framework that allows you to build designs directly in your markup. It provides low-level utility classes that let you build completely custom designs without ever leaving your HTML.",
+        "authorId": 1,
+        "authorName": "John Doe",
+        "createdAt": "2023-10-07T11:45:00.000Z",
+        "updatedAt": null
+      },
+      {
+        "id": 3,
+        "title": "Authentication in Modern Web Apps",
+        "content": "User authentication is a fundamental aspect of most web applications. There are several strategies for implementing authentication, including JWT-based authentication and NextAuth.js, a complete authentication solution for Next.js applications.",
+        "authorId": 2,
+        "authorName": "Jane Smith",
+        "createdAt": "2023-10-10T16:20:00.000Z",
+        "updatedAt": null
+      }
+    ]
+  }
